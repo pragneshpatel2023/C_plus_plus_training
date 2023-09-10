@@ -1,3 +1,11 @@
+//============================================================================
+// Name        : Use_of_flash.cpp
+// Author      : Pragnesh Patel
+// Version     :
+// Copyright   : Your copyright notice
+// Description : flush keyword testting in c++
+//============================================================================
+
 #include <iostream>
 #include <thread>
 #include <chrono>
