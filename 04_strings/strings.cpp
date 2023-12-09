@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : variable.cpp
+// Name        : strings.cpp
 // Author      : Pragnesh Patel
 // Version     :
 // Copyright   : Your copyright notice
@@ -11,14 +11,14 @@ using namespace std;
 
 int main()
 {
-    int numberOfDogs = 5;
-    int numberOfCats = 10;
+    string text1 = " My name is ";
+    string text2 = " Pragnesh ";
+    string text3 = text1 + text2;
     
-    cout << "Number of Dog's " << numberOfDogs << endl;
+    cout << text1 << endl;
+    cout << text2 << endl;
 
-    cout << "Number of Cat's " << numberOfCats << endl;
-
-    cout << "Total Animals = " << numberOfCats + numberOfDogs << endl;
+    cout << text3 << endl;
     
     return 0;
 }
