@@ -3,12 +3,7 @@
 // Author      : Pragnesh Patel
 // Version     :
 // Copyright   : Your copyright notice
-// Description : 
-//              What is Array Decay in C++?
-//               -> he loss of type and dimensions of an array is known as array decay. 
-//               It occurs when we pass the array into a function by pointer or value. 
-//               First address is sent to the array which is a pointer. 
-//               That is why, the size of array is not the original one.
+// Description : Testing code for c++
 //============================================================================
 #include<iostream>
 
@@ -23,7 +18,7 @@ void DisplayPointer(int (*p)[10]) {
    cout << sizeof(p) << endl;
 }
 int main() {
-   
+
    int arr[10] = {1, 2, };
    cout << "Actual size of array is : ";
    cout << sizeof(arr) << endl;
