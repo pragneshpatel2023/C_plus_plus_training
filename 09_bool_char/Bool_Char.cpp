@@ -6,14 +6,13 @@
 // Description : Testing code for c++
 //============================================================================
 #include <iostream>
-#include <iomanip>
-
 
 using namespace std;
 
 int main()
 {
-    cout << endl << "-----------------------" << endl;
+    cout << endl
+         << "-----------------------" << endl;
     cout << "Bool value" << dec << endl;
     cout << "-----------------------" << dec << endl;
 
@@ -21,7 +20,8 @@ int main()
     cout << "size of Bool(Byte) = " << sizeof(bool) << endl;
     cout << "bVlaue = " << bVlaue << endl;
 
-    cout << endl << "-----------------------" << endl;
+    cout << endl
+         << "-----------------------" << endl;
     cout << "Character value" << dec << endl;
     cout << "-----------------------" << dec << endl;
 
@@ -29,7 +29,8 @@ int main()
     cout << "size of char(Byte) = " << sizeof(char) << endl;
     cout << "cVlaue = " << cVlaue << endl;
 
-    cout << endl << "-----------------------" << endl;
+    cout << endl
+         << "-----------------------" << endl;
     cout << "Wide  Character value" << dec << endl;
     cout << "-----------------------" << dec << endl;
 
