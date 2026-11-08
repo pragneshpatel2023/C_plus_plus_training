@@ -1,3 +1,92 @@
-# Executables
-*.out
+# Prerequisites
+*.d
+
+# Object files
 *.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# debug information files
+*.dwo
+
+# STM32CubeIDE .gitignore
+
+# Build output directories
+code/Debug/
+code/Release/
+code/build/
+
+# Object files, libraries, executables
+*.o
+*.d
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# IDE metadata (workspace settings, local prefs)
+.settings/
+.metadata/
+*.launch
+
+# Eclipse/STM32CubeIDE project files (optional, keep if sharing workspace)
+*.project
+*.cproject
+
+# Generated code backups
+*.bak
+*.tmp
+
+# Logs
+*.log
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
